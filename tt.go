@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import(
+    "fmt"
+	"github.com/calabashdoll/mytalk/t1"
+)
 
 func main(){
-	fmt.Println("my-talk-git")
+    fmt.Println(t1.EchoJ(1,2))
+	fmt.Println("my-talk-git-didi")
 }
